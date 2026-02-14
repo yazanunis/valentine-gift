@@ -164,7 +164,7 @@ export default function ValentinePage() {
                 </div>
               </div>
               <h1 className="text-2xl font-bold text-gray-800 mb-2">Locked Heart 🔒</h1>
-              <p className="text-gray-500 mb-6 text-sm">Enter the date we first met (DDMM)</p>
+              <p className="text-gray-500 mb-6 text-sm">Enter the date we first say love you (DDMM)</p>
               
               <form onSubmit={handleLogin} className="space-y-4">
                 <input 
