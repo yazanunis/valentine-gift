@@ -1,4 +1,3 @@
-// app/page.js
 "use client";
 
 import { useState, useRef } from "react";
@@ -6,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Lock, Music, Volume2, VolumeX } from "lucide-react";
 
 // --- Configuration & Data ---
-const SECRET_PASSWORD = "2302"; // Change this to your special date/word
-const MUSIC_FILE = "/romantic-song.mp3"; // Ensure this file is in the 'public' folder
+const SECRET_PASSWORD = "2302";
+const MUSIC_FILE = "/romantic-song.mp3";
 
 const MEMORIES = [
   {
@@ -100,6 +99,48 @@ const MEMORIES = [
     title: "",
     description: "",
     image: "/photo13.jpg",
+  },
+  {
+    id: 14,
+    date: "August 15, 2025",
+    title: "",
+    description: "",
+    image: "/photo14.jpg",
+  },
+  {
+    id: 15,
+    date: "August 20, 2025",
+    title: "",
+    description: "",
+    image: "/photo15.jpg",
+  },
+  {
+    id: 16,
+    date: "September 3, 2025",
+    title: "",
+    description: "",
+    image: "/photo16.jpg",
+  },
+  {
+    id: 17,
+    date: "September 10, 2025",
+    title: "",
+    description: "",
+    image: "/photo17.jpg",
+  },
+  {
+    id: 18,
+    date: "September 19, 2025",
+    title: "",
+    description: "",
+    image: "/photo18.jpg",
+  },
+  {
+    id: 19,
+    date: "September 29, 2025",
+    title: "",
+    description: "",
+    image: "/photo19.jpg",
   },
   // Add more memories here...
 ];
@@ -230,7 +271,7 @@ value={inputPassword}
             </div>
             
             <footer className="text-center py-10 text-gray-400 text-sm">
-              Made with ❤️ specifically for you
+              Made with ❤️ specifically for you || Yazan
             </footer>
           </motion.div>
         )}
