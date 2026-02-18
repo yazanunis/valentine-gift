@@ -186,18 +186,11 @@ const MEMORIES = [
   },
   {
     id: 26,
-    date: "January 23, 2026",
+    date: "January 24, 2026",
     title: "",
     description: "",
     image: "/photo26.jpg",
-  },
-  {
-    id: 27,
-    date: "February 24, 2026",
-    title: "",
-    description: "",
-    image: "/photo27.jpg",
-  },
+  }
   // Add more memories here...
 ];
 
