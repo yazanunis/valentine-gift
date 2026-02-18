@@ -152,7 +152,7 @@ const MEMORIES = [
   {
     id: 21,
     date: "October 9, 2025",
-    title: "Shopping Time 🛒 :)",
+    title: "Shopping Time 🛒",
     description: "",
     image: "/photo21.jpg",
   },
@@ -181,8 +181,22 @@ const MEMORIES = [
     id: 25,
     date: "January 2, 2026",
     title: "Missed the Corniche",
-    description: "Hello 2026!, We're here :)",
+    description: "Hello 2026! We're here :)",
     image: "/photo25.jpg",
+  },
+  {
+    id: 26,
+    date: "January 23, 2026",
+    title: "",
+    description: "",
+    image: "/photo26.jpg",
+  },
+  {
+    id: 27,
+    date: "February 24, 2026",
+    title: "",
+    description: "",
+    image: "/photo27.jpg",
   },
   // Add more memories here...
 ];
